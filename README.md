@@ -47,8 +47,7 @@ WebView2 (Local, Sandboxed)
 ↓
 WebGL2 Fragment Shader Engine
 
-yaml
-Copy code
+
 
 ### Key Design Decisions
 - **Authentication handled by native host** (no CORS issues)
@@ -77,8 +76,7 @@ Copy code
 
 scripts\install.ps1
 
-markdown
-Copy code
+
 
 → **Run with PowerShell (Administrator)**
 
@@ -103,8 +101,6 @@ All configuration lives in a single file:
 
 config\config.json
 
-pgsql
-Copy code
 
 ### Real-Time Signal Stream Example
 
@@ -118,9 +114,9 @@ Copy code
     "smoothing": 0.88
   }
 }
+
 Voice-Reactive Layer
-json
-Copy code
+
 {
   "voice": {
     "enabled": true,
@@ -144,7 +140,6 @@ This design keeps credentials isolated and avoids browser-level security constra
 🗑️ Uninstallation
 To remove everything cleanly:
 
-Copy code
 scripts\uninstall.ps1
 (Run as Administrator)
 
