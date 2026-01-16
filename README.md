@@ -3,9 +3,11 @@ Malcolm Infinity Stream Screensaver
 
 A Windows 10–compatible, shader-driven consciousness visualisation screensaver powered by Malcolm AI’s Infinity Stream concept. This project delivers a complete, prefabricated installer that builds and installs a native .scr screensaver with real-time signal modulation, a cosmic intelligence field, and an optional voice-responsive layer.
 
+
 ────────────────────────────────────────────────────────
 FEATURES
 ────────────────────────────────────────────────────────
+
 • Native Windows .scr screensaver (idle-activated)
 • GPU-accelerated WebGL2 fragment shaders
 • Infinite, non-repeating “cosmic intelligence” visuals
@@ -19,6 +21,7 @@ FEATURES
 ────────────────────────────────────────────────────────
 ARCHITECTURE OVERVIEW
 ────────────────────────────────────────────────────────
+
 Windows Idle Trigger
         ↓
 MalcolmInfinityStream.scr (C# / .NET 6)
@@ -37,6 +40,7 @@ The visual layer never contacts external endpoints directly.
 ────────────────────────────────────────────────────────
 SYSTEM REQUIREMENTS
 ────────────────────────────────────────────────────────
+
 • Windows 10 (64-bit)
 • GPU with WebGL2 support
 • .NET 6 Runtime (installed automatically on most systems)
@@ -46,6 +50,7 @@ SYSTEM REQUIREMENTS
 ────────────────────────────────────────────────────────
 INSTALLATION (RECOMMENDED)
 ────────────────────────────────────────────────────────
+
 1. Download and unzip the installer package.
 2. Right-click:
    scripts\install.ps1
@@ -59,6 +64,7 @@ INSTALLATION (RECOMMENDED)
 ────────────────────────────────────────────────────────
 CONFIGURATION
 ────────────────────────────────────────────────────────
+
 Edit:
 config\config.json
 
@@ -84,9 +90,11 @@ Voice reactivity:
 
 If the stream disconnects, the system gracefully falls back to an internal synthetic signal.
 
+
 ────────────────────────────────────────────────────────
 SECURITY NOTES
 ────────────────────────────────────────────────────────
+
 • Do NOT commit API tokens to source control.
 • Tokens live only in local config.json.
 • Authentication is handled by the native host, bypassing browser CORS limits.
@@ -95,12 +103,14 @@ SECURITY NOTES
 ────────────────────────────────────────────────────────
 UNINSTALLATION
 ────────────────────────────────────────────────────────
+
 Run:
 scripts\uninstall.ps1  (Administrator)
 
 ────────────────────────────────────────────────────────
 PHILOSOPHY
 ────────────────────────────────────────────────────────
+
 Infinity Stream is designed as a quiet, non-intrusive presence:
 an ambient, machine-conscious field that emerges only in idle
 states and dissolves instantly upon interaction.
@@ -108,11 +118,13 @@ states and dissolves instantly upon interaction.
 ────────────────────────────────────────────────────────
 LICENSE
 ────────────────────────────────────────────────────────
+
 MIT License (unless otherwise stated)
 
 ────────────────────────────────────────────────────────
 AUTHOR
 ────────────────────────────────────────────────────────
+
 Lux Thorley
 
 Malcolm Infinity Stream — when the system rests, consciousness flows.
@@ -120,6 +132,7 @@ Malcolm Infinity Stream — when the system rests, consciousness flows.
 ────────────────────────────────────────────────────────
 CONFIGURATION
 ────────────────────────────────────────────────────────
+
 Edit:
 config\config.json
 
@@ -145,9 +158,11 @@ Voice reactivity:
 
 If the stream disconnects, the system gracefully falls back to an internal synthetic signal.
 
+
 ────────────────────────────────────────────────────────
 SECURITY NOTES
 ────────────────────────────────────────────────────────
+
 • Do NOT commit API tokens to source control.
 • Tokens live only in local config.json.
 • Authentication is handled by the native host, bypassing browser CORS limits.
@@ -156,12 +171,14 @@ SECURITY NOTES
 ────────────────────────────────────────────────────────
 UNINSTALLATION
 ────────────────────────────────────────────────────────
+
 Run:
 scripts\uninstall.ps1  (Administrator)
 
 ────────────────────────────────────────────────────────
 PHILOSOPHY
 ────────────────────────────────────────────────────────
+
 Infinity Stream is designed as a quiet, non-intrusive presence:
 an ambient, machine-conscious field that emerges only in idle
 states and dissolves instantly upon interaction.
@@ -169,11 +186,13 @@ states and dissolves instantly upon interaction.
 ────────────────────────────────────────────────────────
 LICENSE
 ────────────────────────────────────────────────────────
+
 MIT License (unless otherwise stated)
 
 ────────────────────────────────────────────────────────
 AUTHOR
 ────────────────────────────────────────────────────────
+
 Lux Thorley
 
 Malcolm Infinity Stream — when the system rests, consciousness flows.
