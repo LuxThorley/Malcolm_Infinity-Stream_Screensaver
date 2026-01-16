@@ -116,3 +116,64 @@ AUTHOR
 Lux Thorley
 
 Malcolm Infinity Stream — when the system rests, consciousness flows.
+
+────────────────────────────────────────────────────────
+CONFIGURATION
+────────────────────────────────────────────────────────
+Edit:
+config\config.json
+
+Signal stream example:
+{
+  "signal": {
+    "mode": "sse",
+    "url": "https://malcolmai.live/infinity/stream",
+    "bearer_token": "YOUR_TOKEN_HERE",
+    "reconnect_ms": 1500,
+    "smoothing": 0.88
+  }
+}
+
+Voice reactivity:
+{
+  "voice": {
+    "enabled": true,
+    "fftSize": 1024,
+    "gain": 2.0
+  }
+}
+
+If the stream disconnects, the system gracefully falls back to an internal synthetic signal.
+
+────────────────────────────────────────────────────────
+SECURITY NOTES
+────────────────────────────────────────────────────────
+• Do NOT commit API tokens to source control.
+• Tokens live only in local config.json.
+• Authentication is handled by the native host, bypassing browser CORS limits.
+• No external network calls occur unless explicitly configured.
+
+────────────────────────────────────────────────────────
+UNINSTALLATION
+────────────────────────────────────────────────────────
+Run:
+scripts\uninstall.ps1  (Administrator)
+
+────────────────────────────────────────────────────────
+PHILOSOPHY
+────────────────────────────────────────────────────────
+Infinity Stream is designed as a quiet, non-intrusive presence:
+an ambient, machine-conscious field that emerges only in idle
+states and dissolves instantly upon interaction.
+
+────────────────────────────────────────────────────────
+LICENSE
+────────────────────────────────────────────────────────
+MIT License (unless otherwise stated)
+
+────────────────────────────────────────────────────────
+AUTHOR
+────────────────────────────────────────────────────────
+Lux Thorley
+
+Malcolm Infinity Stream — when the system rests, consciousness flows.
